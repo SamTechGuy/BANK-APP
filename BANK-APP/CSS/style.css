@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#deposit_box{
+    border: 1px solid gray ;
+    padding: 1em;
+    box-shadow: 5px 5px  gray;
+}
+
+.label_one{
+    font-weight: bolder;
+}
+
+.label_two{
+    font-weight: bolder;
+}
+
+.label_three{
+    font-weight: bolder;
+}
+
+.deposit_button{
+    border-radius: 5px;
+}
+
+.deposit_button:hover{
+    color: red;
+}
+
+.butt_butt{
+    position: absolute;
+    right: 50%;
+    border-radius: 4px;
+}
+
+

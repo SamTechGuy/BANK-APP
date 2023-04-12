@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thirdparties/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid p-3 text-light bg-dark">
+        <h1 class="text-center">BANK APP</h1>
+        
+    </div>
+
+    <div class="container">
+        <h6 class="pt-3 " >Your balance</h6>
+        <h6 id="display" class="pb-4"></h6>
+    </div>
+   
+
+    <div class="container pb-4">
+        <div class="input-amount">
+            <label for="" class="label_one">AMOUNT</label><br>
+            <div class="error"></div>
+            <input type="number" id="amount" placeholder="enter your amount..." style="width: 25vw;margin-bottom: 4px;"><br>
+            <input type="submit" id="submit" value="Deposit" class="bg-dark  text-light p-1  deposit_button">
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+
+        <div class="container">
+            <h4 class="text-center">History</h4>
+            <div id="deposit_box">
+                
+            </div>
+
+        </div><hr style="border: none;">
+
+        <div class="container">
+            <h4 class="text-center">Add Transaction</h4><hr>
+            
+            <div class="row">
+            <div class="col-6 first_text pl-5">
+                <!-- <div id="errors"></div> -->
+                <label for="" class="label_two ">Text</label><br>
+                <input type="text" placeholder="enter text..." style="width: 25vw;" id="transact_input1"> 
+            </div>
+            <div class="col-6 second_text pl-5">
+                <label for="" class="label_three">Amount</label><br>
+                <input type="number" placeholder="enter your amount..." style="width: 25vw;" id="transact_input2">
+            </div>
+            </div> 
+        </div>
+        <button class="mt-4 butt_butt mb-4 bg-dark text-light p-1" id="transaction_btn">Add Transaction</button>
+    
+
+    <script src="thirdparties/JQUERY/jquery.min.js"></script>
+    <script src="thirdparties/js/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
